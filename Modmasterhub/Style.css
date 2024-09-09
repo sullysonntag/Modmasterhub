@@ -1,6 +1,5 @@
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     background-color: #ffffff;
@@ -11,11 +10,12 @@ header {
 #logo {
     font-size:20px;
     font-weight: bold;
-    width: 250px;
+    width: 125px;
   }
   header nav {
     display: flex;
     gap: 100px;
+    padding-left: 200px;
   }
   
   header nav a {
@@ -25,8 +25,49 @@ header {
     transition: color 0.3s ease;
   }
 #join{
-    padding-left: 50px;
+    padding-left: 250px;
 }
 ul {
     list-style-type: none;
+}
+#fondo{
+background:black url(img/fodoreal.jpg) no-repeat center;
+background-size: cover ;
+padding-bottom: 90px;
+padding-top: 0px;
+}
+#zul{
+  color: blue;
+}
+section {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cuadrado {
+  width: 400px; 
+  height: 400px; 
+  background-color: #fff; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.cuadrado p {
+  margin: 0;
 }
