@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+#logo {
+    font-size:20px;
+    font-weight: bold;
+    width: 250px;
+  }
+  header nav {
+    display: flex;
+    gap: 100px;
+  }
+  
+  header nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+#join{
+    padding-left: 50px;
+}
+ul {
+    list-style-type: none;
+}
