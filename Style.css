@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+#logo {
+    font-size:20px;
+    font-weight: bold;
+    width: 125px;
+  }
+  header nav {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+  }
+  
+  header nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+#join{
+    padding-left: 250px;
+}
+ul {
+    list-style-type: none;
+}
+#fondo{
+background:black url(img/fodoreal.jpg) no-repeat center;
+background-size: cover ;
+padding-bottom: 90px;
+padding-top: 0px;
+}
+#zul{
+  color: blue;
+}
+section {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.cuadrado {
+  width: 550px; 
+  height: 450px; 
+  background-color: #fff; 
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 300px;
+  top: 500px;
+}
+
+.cuadrado p {
+  margin: 0;
+}
+#welc {
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 20px;
+}
+#yuo {
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 50px;
+}
+p{
+  font-family: 'Lexend', sans-serif;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid #555;
+}
