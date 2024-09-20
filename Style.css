@@ -120,20 +120,20 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px; /* Espaciado entre productos */
-  margin: 20px 350px;
+  gap: 80px; /* Espaciado entre productos */
+  margin: 20px 450px;
   position: absolute;
+ 
 }
 
 .product-item {
-  
   width: 250px; /* Ajusta el ancho según tus necesidades */
-  object-fit: cover; 
-
+  object-fit: cover;
+  width: calc(25% - 80px);
 }
 
 .product-image {
-  width: 100%;
+  width: auto;
   height: 250px; /* Ajusta la altura según tus necesidades */
   object-fit: cover; /* Recorta y mantiene la proporción */
   margin-bottom: 10px;
@@ -142,8 +142,12 @@ footer {
 .product-info h3 {
   font-size: 16px; /* Tamaño del nombre del producto */
   margin: 5px 0;
+  font-family: Arial, sans-serif;
+  color: #555;
+  text-decoration: none;
 }
 
 .product-info p {
   color: #555; /* Color del precio */
+  text-decoration: none;
 }
