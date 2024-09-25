@@ -241,6 +241,7 @@ a:-webkit-any-link {
 
 .rare-text h1 {
   font-size: 40px; /* Font size for the title */
+  
 }
 
 .rare-text h2 {
@@ -307,7 +308,7 @@ a:-webkit-any-link {
 .card {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
 }
@@ -316,4 +317,15 @@ a:-webkit-any-link {
   color: gold;
   font-size: 20px;
   margin: 10px 0;
+}
+.foto img {
+  display: block; /* Removes spaces around the image. */
+  width: 100%; /* Makes the image take up the full width of the container. */ 
+  height: 600px; /* Proportionally adjusts the image height. */
+  object-fit: cover;
+}
+.foto{
+  position: relative; /* Parent container to position elements inside relative to it. */
+  width: 100%; /* The image will take up the full available width. */ 
+  height: 700px; /* Adjust the container height as needed */
 }
