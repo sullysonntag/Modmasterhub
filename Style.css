@@ -265,13 +265,13 @@ a:-webkit-any-link {
 
 .square1 {
   top: 575px; /* Adjust the position of the first square */
-  left: 100px; /* Adjust the position of the first square */
+  left: 450px; /* Adjust the position of the first square */
   font-size: 10px;
 }
 
 .square2 {
   top: 575px; /* Adjust the position of the second square */
-  left: 900px; /* Adjust the position of the second square */
+  left: 1000px; /* Adjust the position of the second square */
 }
 .square h1 {
   font-size: 24px; /* Adjust size of the main title */
@@ -340,7 +340,7 @@ a:-webkit-any-link {
   padding: 20px;
   box-sizing: border-box;
   position: absolute;
-  left: 300px;
+  left: 450px;
   top: 800px;
 }
 .cuadrao p {
