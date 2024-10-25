@@ -1,3 +1,4 @@
+/* Allows the header to look as I want */
 header {
     display: flex;
     align-items: center;
@@ -6,39 +7,45 @@ header {
     color: #000000;
     font-family: Arial, sans-serif;
   }
-  
-#logo {
+  /* Gives the correct size to the logo */
+  #logo {
     font-size:20px;
     font-weight: bold;
     width: 125px;
   }
+  /* Allows the buttons of the header be well positioned */
   header nav {
     display: flex;
     gap: 100px;
     padding-left: 200px;
   }
-  
+  /* decorate the buttons of the header */
   header nav a {
     color: #000000;
     text-decoration: none;
     font-size: 1em;
     transition: color 0.3s ease;
   }
+  /*separate the button join to our discord from the rest */
 #join{
     padding-left: 250px;
 }
+/* Take the ugly dots out */
 ul {
     list-style-type: none;
 }
+/* determine the backgound */
 #fondo{
 background:black url(img/fodoreal.jpg) no-repeat center;
 background-size: cover ;
 padding-bottom: 90px;
 padding-top: 0px;
 }
+/* discord turns blue */
 #zul{
   color: blue;
 }
+/* set the shape of every section */
 section {
   margin: 0;
   height: 100vh;
@@ -47,7 +54,7 @@ section {
   justify-content: center;
   background-color: #f0f0f0; 
 }
-
+/* deetermine the layout inside the white box */
 .container {
   display: flex;
   justify-content: center;
@@ -55,7 +62,7 @@ section {
   font-family: Arial, sans-serif;
   letter-spacing: 2px;
 }
-
+/* the characteristics of the white box*/
 .cuadrado {
   width: 550px; 
   height: 450px; 
@@ -68,23 +75,27 @@ section {
   left: 300px;
   top: 500px;
 }
-
+/* accommodate the text in the white box*/
 .cuadrado p {
   margin: 0;
 }
+/* characteristics of the text */
 #welc {
   font-size: 40px;
   font-family: 'Lexend', sans-serif;
   margin-bottom: 20px;
 }
+/* characteristics of the text */
 #yuo {
   font-size: 20px;
   font-family: 'Lexend', sans-serif;
   margin-bottom: 50px;
 }
+/* characteristics of the text */
 p{
   font-family: 'Lexend', sans-serif;
 }
+/* characteristics of the footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -93,15 +104,16 @@ footer {
   border-top: 3px solid #555;
   left: 0;
   right: 0;
-  position: relative; /* Allows the footer to be positioned normally */
-  bottom: 0; /* Position it at the bottom */
+  position: relative;
+  bottom: 0; 
   display: block;
 }
+/* accommodate the image under the header */
 .image-container {
   position: relative;
   text-align: center;
 }
-
+/* accommodate the image under the header */
 .responsive-image {
   width: 100%;
   height: auto;
@@ -109,7 +121,7 @@ footer {
   height: 190px;
   object-fit: cover;
 }
-
+/* edit text on the image under the header */
 .overlay {
   position: absolute;
   top: 50%;
@@ -121,6 +133,7 @@ footer {
   border-radius: 5px;
   font-family: 'Lexend', sans-serif;
 }
+/* layout of the product gallery */
 .product-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -128,20 +141,20 @@ footer {
   gap: 50px;
   margin: 0px 400px;
 }
-
+/* edit the acpect of the products */
 .product-item {
   width: 250px;
   object-fit: cover;
   width: calc(25% - 50px);
 }
-
+/* edit the product image */
 .product-image {
   width: auto;
   height: 250px;
   object-fit: cover;
   margin-bottom: 10px;
 }
-
+/* edit the information of the products */
 .product-info h3 {
   font-size: 16px;
   margin: 5px 0;
@@ -149,21 +162,22 @@ footer {
   color: #555;
   text-decoration: none;
 }
-
+/* edit the information of the products */
 .product-info p {
   color: #555;
   text-decoration: none;
 }
+/* layout in the box of the filters */
 .main-container {
   display: flex;
 }
-
+/*edit the grey box of the filters*/
 .sidebar {
   width: 250px;
   background-color: #ccc;
   padding: 10px;
 }
-
+/*edit the grey box of the filters*/
 .toggle-filters {
   display: block;
   cursor: pointer;
@@ -172,19 +186,19 @@ footer {
   text-decoration: none;
   color: black;
 }
-
+/*edit the position of the filters*/
 .filters {
   margin-top: 10px;
 }
-
+/* layout in the box of the filters */
 #filters:target {
   display: block;
 }
-
+/* little change in the lenght of the box */
 .filter-group {
   margin-bottom: 10px;
 }
-
+/* characteristics of the filter buttons */
 .filter-button {
   display: block;
   width: 100%;
@@ -197,108 +211,112 @@ footer {
   text-align: left;
   font-family: Arial, sans-serif;
 }
-
+/* change the color of the button when you put the cursor on top*/
 .filter-button:hover {
   background-color: #f0f0f0;
 }
+/*edit h3*/
 h3{
   font-family: Arial, sans-serif;
 }
+/*take the blue lines off from the filters*/
 a:-webkit-any-link {
   color: grey;
   cursor: pointer;
   text-decoration: none;
 }
-.contenido {
-  flex: 1;
-}
+/*edit the text from the image under the header from the page support*/
 .unusual-wrapper {
-  position: relative; /* Parent container to position elements inside relative to it. */
-  width: 100%; /* The image will take up the full available width. */ 
-  height: 700px; /* Adjust the container height as needed */
+  position: relative; 
+  width: 100%; 
+  height: 700px; 
 }
-
+/*edit the image under the header from the page support*/
 .unusual-wrapper img { 
-  display: block; /* Removes spaces around the image. */
-  width: 100%; /* Makes the image take up the full width of the container. */ 
-  height: 400px; /* Proportionally adjusts the image height. */
+  display: block;
+  width: 100%; 
+  height: 400px; 
   object-fit: cover;
 }
-
+/*edit the text from the image under the header from the page support. */
 .rare-text { 
-  position: absolute; /* Places the text over the image. */ 
-  top: 30%; /* Moves the text to 50% of the container height. */ 
-  left: 50%; /* Moves the text to 50% of the container width. */ 
-  transform: translate(-50%, -50%); /* Centers the text exactly in the middle of the image.*/ 
-  color: #ffffff; /* White text. */ 
-  padding: 20px; /* Padding inside the text container. */
-  font-family: 'Arial', sans-serif; /* Font family for the text. */ 
-  text-align: center; /* Centers the text inside the container. */ 
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to make the text more readable. */
-  width: 60%; /* Width of the text block. You can adjust this as needed. */
-  height: auto; /* The height of the block adjusts to the content, but you can change it if needed. */
-  border-radius: 10px; /* Rounded corners for a smoother appearance. */
+  position: absolute; 
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #ffffff; 
+  padding: 20px; 
+  font-family: 'Arial', sans-serif;
+  text-align: center; 
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%; 
+  height: auto;
+  border-radius: 10px;
 }
-
+/* Font size for the title */
 .rare-text h1 {
-  font-size: 40px; /* Font size for the title */
+  font-size: 40px; 
   
 }
-
+/* Font size for the subtitle and removes top margin */
 .rare-text h2 {
-  font-size: 18px; /* Font size for the subtitle */
-  margin-top: 0; /* Removes top margin to avoid spacing between h1 and h2 */
+  font-size: 18px; 
+  margin-top: 0; 
 }
+/* edit the squares in the page support */
 .square {
-  width: 450px; /* Initial width of the squares */
-  height: 250px; /* Initial height of the squares */
-  background-color: #e7e4e4; /* Light gray background */
-  border: 1px solid #000000; /* Black border */
-  position: absolute; /* Allows positioning the squares freely */
-  display: flex; /* Flexbox for easy centering of text */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center align items */
-  justify-content: center; /* Center vertically */
+  width: 450px; 
+  height: 250px; 
+  background-color: #e7e4e4; 
+  border: 1px solid #000000;
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
   font-family: Arial, sans-serif;
-  text-align: center; /* Center text */
+  text-align: center;
 }
-
+/* Adjust the position of the first square */
 .square1 {
-  top: 575px; /* Adjust the position of the first square */
-  left: 450px; /* Adjust the position of the first square */
+  top: 575px; 
+  left: 450px; 
   font-size: 10px;
 }
-
+/* Adjust the position of the second square */
 .square2 {
-  top: 575px; /* Adjust the position of the second square */
-  left: 1000px; /* Adjust the position of the second square */
+  top: 575px;
+  left: 1000px; 
 }
+/* Adjust the main title of the squares */
 .square h1 {
-  font-size: 24px; /* Adjust size of the main title */
-  margin-bottom: 10px; /* Space below the heading */
+  font-size: 24px; 
+  margin-bottom: 10px; 
 }
-
+/* Adjust the pargraph text from the squares */
 .square p {
-  font-size: 16px; /* Size of the paragraph text */
-  margin: 0; /* Remove default margin */
+  font-size: 16px; 
+  margin: 0; 
 }
+/*edit the text in the image under the header of the reviews page.*/
 .pablo{
-  position: absolute; /* Places the text over the image. */ 
-  top: 30%; /* Moves the text to 50% of the container height. */ 
-  left: 50%; /* Moves the text to 50% of the container width. */ 
-  transform: translate(-50%, -50%); /* Centers the text exactly in the middle of the image.*/ 
-  color: #ffffff; /* White text. */ 
-  padding: 20px; /* Padding inside the text container. */
-  font-family: 'Arial', sans-serif; /* Font family for the text. */ 
-  text-align: center; /* Centers the text inside the container. */ 
-  width: 60%; /* Width of the text block. You can adjust this as needed. */
-  height: auto; /* The height of the block adjusts to the content, but you can change it if needed. */
-  border-radius: 10px; /* Rounded corners for a smoother appearance. */
+  position: absolute; 
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #ffffff; 
+  padding: 20px; 
+  font-family: 'Arial', sans-serif;  
+  text-align: center; 
+  width: 60%; 
+  height: auto;
+  border-radius: 10px;
 }
+/* Accommodate content in some boxes of all pages */
 * {
   box-sizing: border-box;
 }
-
+/* edit the layout of the review containers */
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -306,7 +324,7 @@ a:-webkit-any-link {
   margin-top: -200px;
   margin-bottom: 30px;
 }
-
+/* edit the aspect of the review containers */
 .card {
   background-color: white;
   border-radius: 8px;
@@ -314,23 +332,26 @@ a:-webkit-any-link {
   padding: 20px;
   text-align: center;
 }
-
+/* edit the stars of the review containers */
 .stars {
   color: gold;
   font-size: 20px;
   margin: 10px 0;
 }
+/*edit the box from the image under the header from the page about us. */
 .foto img {
-  display: block; /* Removes spaces around the image. */
-  width: 100%; /* Makes the image take up the full width of the container. */ 
-  height: 600px; /* Proportionally adjusts the image height. */
+  display: block; 
+  width: 100%;
+  height: 600px; 
   object-fit: cover;
 }
+/*edit the the image under the header from the page about us. */
 .foto{
-  position: relative; /* Parent container to position elements inside relative to it. */
-  width: 100%; /* The image will take up the full available width. */ 
-  height: 700px; /* Adjust the container height as needed */
+  position: relative; 
+  width: 100%;  
+  height: 700px;
 }
+/*edit the box from the text in about modmasterhub. */
 .cuadrao {
   width: 1050px; 
   height: 450px; 
@@ -343,9 +364,11 @@ a:-webkit-any-link {
   left: 450px;
   top: 800px;
 }
+/*adjust the margin of the text about modmasterhub . */
 .cuadrao p {
   margin: 0;
 }
+/*edit the footer just for the about us page . */
 #pie{
   background-color: #333;
   color: #fff;
@@ -354,8 +377,8 @@ a:-webkit-any-link {
   border-top: 3px solid #555;
   left: 0;
   right: 0;
-  position: relative; /* Allows the footer to be positioned normally */
-  bottom: 0; /* Position it at the bottom */
+  position: relative; 
+  bottom: 0; 
   display: block;
   top: 850px
 }
